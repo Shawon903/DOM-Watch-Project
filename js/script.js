@@ -15,7 +15,7 @@ for (let i = 0; i < ringButtons.length; i++) {
     event.target.classList.add('border-purple-600');
     event.target.classList.remove('border-gray-300');
     const productImage = document.getElementById("product-image");
-    productImage.src = "/images/" + color + ".png";
+    productImage.src = "./images/" + color + ".png";
     // productImage.src = "../images/" + color + ".png";
       
   })
